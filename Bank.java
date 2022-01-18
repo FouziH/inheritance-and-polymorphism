@@ -9,4 +9,11 @@ class BankAccount {
     }
 }
 
+class CheckingAccount extends BankAccount {
+    public CheckingAccount(double balance) {
+        super(balance);
+    }
+
+}
+
 
