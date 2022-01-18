@@ -20,7 +20,14 @@ class CheckingAccount extends BankAccount {
     }
 
     public void checkBalances() {
+        //calls method from checkingAccount
+        printBalance();
+        //calls method from BankAccount
+        super.printBalance();
+    }
 
+    public static void main(String[] args) {
+        CheckingAccount  myChecking = new CheckingAccount(500);
     }
 
 }
