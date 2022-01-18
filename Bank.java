@@ -28,6 +28,7 @@ class CheckingAccount extends BankAccount {
 
     public static void main(String[] args) {
         CheckingAccount  myChecking = new CheckingAccount(500);
+        myChecking.checkBalances();
     }
 
 }
