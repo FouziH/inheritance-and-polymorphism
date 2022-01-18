@@ -5,8 +5,7 @@ class BankAccount {
     }
 
     public void printBalance() {
-        System.out.println("
-        Your account balance is $" + balance);
+        System.out.println("Your account balance is $" + balance);
     }
 }
 
